@@ -1,0 +1,66 @@
+/* ===== TAG STYLES ===== */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+/* ===== CLASS STYLES ===== */
+.content-box {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.highlight {
+  background: #d9eaff;
+}
+
+/* ===== ID STYLES ===== */
+#intro {
+  border-left: 5px solid #4a90e2;
+}
+
+#details {
+  border-left: 5px solid #e24a4a;
+}
+/* ===== FLEXBOX ===== */
+.flex-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flex-item {
+  background: white;
+  padding: 15px;
+  flex: 1;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
